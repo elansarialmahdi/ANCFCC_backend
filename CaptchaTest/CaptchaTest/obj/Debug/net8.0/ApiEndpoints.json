@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "CaptchaController",
+    "Method": "Generate",
+    "RelativePath": "api/Captcha/generate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaptchaController",
+    "Method": "Validate",
+    "RelativePath": "api/Captcha/validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CaptchaController\u002BCaptchaValidationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
