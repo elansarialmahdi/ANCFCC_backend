@@ -1,0 +1,8 @@
+--> Requete N'1 faite le 25/08/2025 12:00:05 -- Par: 127.0.0.1 -- Path: /api/Verification/generate -- Methode: POST -- Contenu: {
+  "toEmail": "elansarialmahdi@gmail.com"
+}
+<-- Reponse N'1 faite le 25/08/2025 12:00:06 -- Code: 200 -- Contenu: {"message":"Verification code sent to email."}
+--> Requete N'2 faite le 25/08/2025 12:00:29 -- Par: 127.0.0.1 -- Path: /api/Verification/validate -- Methode: POST -- Contenu: {
+  "code": "30075"
+}
+<-- Reponse N'2 faite le 25/08/2025 12:00:29 -- Code: 200 -- Contenu: {"success":true,"message":"✅ Code is valid!"}

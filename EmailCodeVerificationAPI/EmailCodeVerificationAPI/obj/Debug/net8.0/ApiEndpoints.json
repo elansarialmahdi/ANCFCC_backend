@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "EmailCodeVerificationAPI.Controllers.VerificationController",
+    "Method": "Generate",
+    "RelativePath": "api/Verification/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailCodeVerificationAPI.Models.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailCodeVerificationAPI.Controllers.VerificationController",
+    "Method": "Validate",
+    "RelativePath": "api/Verification/validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailCodeVerificationAPI.Models.CodeValidationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
