@@ -1,0 +1,24 @@
+--> Requete faite le 7/24/2025 4:26:23 PM -- Par: ::1 -- Path: /api/TitresAPI -- Methode: POST -- Contenu: {
+    "ConservationFonciere": "Fes",
+    "NumeroTitre": 4321,
+    "Indice": "D",
+    "IndiceSpecial": "A3"
+}
+<-- Reponse faite le 7/24/2025 4:26:23 PM -- Code: 404 -- Contenu: {"message":"Ce titre n'existe pas!"}
+-----------------------------------
+--> Requete faite le 7/24/2025 4:29:21 PM -- Par: ::1 -- Path: /api/TitresAPI -- Methode: POST -- Contenu: {
+    "ConservationFonciere": "Fes",
+    "NumeroTitre": 4321,
+    "Indice": "D",
+    "IndiceSpecial": "A3"
+}
+<-- Reponse faite le 7/24/2025 4:29:21 PM -- Code: 404 -- Contenu: {"message":"Ce titre n'existe pas!"}
+-----------------------------------
+--> Requete faite le 7/24/2025 4:29:38 PM -- Par: ::1 -- Path: /api/TitresAPI -- Methode: POST -- Contenu: {
+    "ConservationFonciere": "Rabat",
+    "NumeroTitre": 4321,
+    "Indice": "D",
+    "IndiceSpecial": "A3"
+}
+<-- Reponse faite le 7/24/2025 4:29:38 PM -- Code: 200 -- Contenu: {"conservationFonciere":"Rabat","numeroTitre":4321,"indice":"D","indiceSpecial":"A3"}
+-----------------------------------
